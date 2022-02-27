@@ -1,7 +1,7 @@
 {
   "editor.cursorBlinking": "smooth",
   "editor.detectIndentation": true,
-  "editor.fontFamily": "Roboto Mono Medium, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "JetBrains Mono, Roboto Mono Medium, Menlo, Monaco, 'Courier New', monospace",
   "editor.formatOnSave": true,
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
@@ -9,8 +9,8 @@
   "editor.renderIndentGuides": true,
   "editor.tabSize": 2,
   "emmet.includeLanguages": {
-      "javascript": "javascriptreact",
-      "jsx-sublime-babel-tags": "javascriptreact"
+    "javascript": "javascriptreact",
+    "jsx-sublime-babel-tags": "javascriptreact"
   },
   "emmet.triggerExpansionOnTab": true,
   "emmet.showExpandedAbbreviation": "never",
@@ -24,11 +24,16 @@
   "material-icon-theme.activeIconPack": "",
   "material-icon-theme.saturation": 1,
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Dracula",
   "workbench.editor.showIcons": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "java.errors.incompleteClasspath.severity": "ignore",
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "workbench.colorTheme": "Dracula",
+  "terminal.integrated.fontSize": 14,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
